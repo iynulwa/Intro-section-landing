@@ -1,0 +1,30 @@
+.company-info{
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-inline-start: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 40rem) {
+    .company-info{
+        position: absolute;
+        inset-block-start: 73%;
+        inset-inline-start: 24%;
+        z-index: 1;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.5rem 2rem 0.5rem var(--clr-grey-shadow);
+        }
+
+    }
+}

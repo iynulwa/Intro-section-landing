@@ -1,0 +1,26 @@
+.menu{
+    position: relative;
+    width: 70%;
+    min-height: 100vh;
+    height: auto;
+    padding: 2rem;
+    background-color: var(--clr-grey50);
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    z-index: 1;
+
+    img{
+        margin-inline-start: auto;
+    }
+
+    .mobile-features-container{
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+    .menu{
+        display: none;
+    }
+}

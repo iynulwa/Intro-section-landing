@@ -1,0 +1,45 @@
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--clr-grey50);
+
+    .logo-features-container{
+        .features-container{
+            display: none;
+        }
+    }
+
+    .btn-in-nav{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 40rem) {
+
+    nav{
+        padding-block: 1rem;
+        padding-inline: clamp(1rem, 4vw + 0.3rem, 3rem);
+
+        .logo-features-container{
+            display: flex;
+            gap: clamp(1.5rem, 3.5vw + 0.5rem, 4rem);
+
+            .features-container{
+                display: flex;
+            }
+        }
+
+        .open-menu{
+            display: none;
+        }
+
+        .btn-in-nav{
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
+}
