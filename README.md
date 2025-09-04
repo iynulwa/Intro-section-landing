@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/intro_section_project/public/images/Screenshot 2025-09-04 053429.jpg)
+![](/images/Screenshot 2025-09-04 053429.jpg)
 
 ### Links
 
